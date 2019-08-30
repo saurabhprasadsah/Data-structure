@@ -1,10 +1,12 @@
 #include<conio.h>
 #include<stdio.h>
 #include<stdlib.h>
+
+#define SIZE 5
 int a[5],top=-1;
 void push();
 void pop();
-void list();
+void display();
 main()
 {
 	int d;
@@ -64,7 +66,7 @@ pop()
 }
 
 
-list()
+display()
 {
 	int i;
 	puts("\nstack elements are\n");
